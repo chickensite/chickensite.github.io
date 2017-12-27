@@ -1,0 +1,181 @@
+html {background-color: #}
+.h11 {color:red; align-self: middle; height: 10px; width: 500px; position: relative; top: 70px}
+h1	{color: green}
+h2 {color: green;}
+li {    float: left;
+    display: block;
+    	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	align-self: middle;}
+li:hover{background-color: blue;}
+ul { list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    align-self: middle;
+    position: fixed;
+    width: 100%}
+
+
+
+
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 0px;
+    }
+.stickmann {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px
+	}
+.stickmannn {
+	display:flex;
+	justify-content: space-between;
+		margin-top: -127px;
+		margin-left: 0px
+	}
+.stickmannnn {
+	display:flex;
+	justify-content: space-between;
+		margin-top: 37px;
+		margin-left: px;
+	}
+
+
+.kip {
+	color:white;
+	border-radius: 150px;
+	border: solid 3px black;
+	width: 50px;
+	height: 50px;
+	align-self: center;
+
+	display: flex;
+	flex-direction: column;
+	}
+.boven
+{display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: -30px;
+	}
+
+.oog {
+	color:white;
+	border-radius: 100px;
+	border: solid 2px black;
+	width: 5px;
+	height: 5px;
+	align-self: center;
+	margin-top: -15px;
+	margin-left: 9px;
+	}
+.oog2 {
+	color:white;
+	border-radius: 100px;
+	border: solid 2px black;
+	width: 5px;
+	height: 5px;
+	align-self: center;
+	margin-top: -15px; 	
+	margin-left: 0px;
+	margin-right: 9px;
+	}
+
+
+.onder{
+
+
+
+
+}
+.mond {
+	color:white;
+	border: solid 1px black;
+	width: 20px;
+	height: 1px;
+	background-color: black;
+	margin-top: 15px;
+	margin-left: 30%;
+	;
+	}
+
+
+
+
+.kip2 {
+	color:black;
+	border: solid 1px black;
+	background-color: black;
+	width: 1px;
+	height: 120px;
+	align-self: center;
+	}
+
+.kip3 {
+	color:white;
+	border: solid 1px black;
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	margin-top: -70px;
+	}
+	
+kip4 {
+	color:white;
+	border: solid 1px black;
+	width: 1px;
+	height: 70px;
+	align-self: center;
+
+	}	
+.kip5 {
+	color:white;
+	border: solid 1px black;
+	width: 1px;
+	background-color: black;
+	height: 80px;
+	transform: rotate(125deg);
+
+	}										
+.kip6 {
+	color:white;
+	border: solid 1px black;
+	width: 1px;
+	background-color: black;
+	height: 80px;
+	transform: rotate(-125deg);
+	margin-left: 60px;
+
+	}		
+	.kip7 {
+	color:white;
+	border: solid 1px black;
+	width: 1px;
+	background-color: black;
+	height: 80px;
+	transform: rotate(35deg);
+
+	}										
+.kip8 {
+	color:white;
+	border: solid 1px black;
+	width: 1px;
+	background-color: black;
+	height: 80px;
+	transform: rotate(-35deg);
+	margin-left: 45px;
+
+	}										
+	
+	img {
+		width: 50%;
+		height: 50%;
+		margin-top: 60px;
+		margin-left: -500px;
+		}
