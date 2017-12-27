@@ -1,24 +1,35 @@
-html {background-color: #}
-.h11 {color:red; align-self: middle; height: 10px; width: 500px; position: relative; top: 70px}
-h1	{color: green}
-h2 {color: green;}
-li {    float: left;
-    display: block;
-    	text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-	align-self: middle;}
-li:hover{background-color: blue;}
-ul { list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav {
     overflow: hidden;
     background-color: #222;
-    align-self: middle;
     position: fixed;
-    width: 100%}
+    top: 0;
+    color: white;
 
+    width: 100%;
+}
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: red;
+}
+
+body {
+ 
+    margin: 0;
+
+}
+.lala {
+    padding: 16px;
+    margin-top: 30px
+
+}
 
 
 
