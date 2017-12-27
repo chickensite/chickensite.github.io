@@ -1,6 +1,5 @@
-html { heigh%; }
-.h11 {color:red; align-self: middle; height: 10px; width: 500px; position: relative; top: 70px}
-h1	{color: green}
+html {background-color: #}
+h1  {color: red}
 h2 {color: green;}
 li {    float: left;
     display: block;
@@ -8,7 +7,7 @@ li {    float: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-	align-self: middle;}
+    align-self: middle;}
 li:hover{background-color: blue;}
 ul { list-style-type: none;
     margin: 0;
