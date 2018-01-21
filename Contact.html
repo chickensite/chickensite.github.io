@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Home Ilias</title>
 	<link rel="stylesheet" href="Contact.css">
@@ -7,38 +8,58 @@
 <div class="nav">
   <a style="text-decoration:none; color:lightgrey;" href="2.html">Home</a>
   <a style="text-decoration:none; color:lightgrey;" href="1.html">Pictures</a>
-    <a style="text-decoration:none; color:lightgrey;" href="Contact.html">Contact</a>
+  <a style="text-decoration:none; color:lightgrey;" href="Contact.html">Contact & Locatoin</a>
   <a style="text-decoration:none; color:lightgrey;" href="stickman.html">Stickman</a>
 </div>
-
 </head>
+
+
 <body>
+
+<h1 class="h11">Make an order!</h1>
 
 <div class=formulier>
 
-<form action="mailto:iliasvdheuvel@gmail.com" method="post" enctype="text/plain">
+<form action="thank_you.php" method="post" >
  
   <div class=ab>
  <div class=a>
   <label>Naam:</label>
-    <input  type="text" name="voor"><br>
+    <input  class="groot" type="text" name="voor"><br>
   </div> 
   
   <div class=a>  
   <label> achternaam:</label>
-  <input type="text" name="achter">
+  <input class="groot" type="text" name="achter">
   </div> 
- 
-  <div class="b">
-  <input type="submit" name="sumbit">
-  </div>
   
+  <div class=gender1>
+  <div class=gender>
+  <label>Male</label>
+  <input type="radio" name="Male">
+</div>
+<div class=gender2>
+  <label>Female</label>
+    <input type="radio" name="Female">
+  </div>
+ </div>
+  <div class="b">
+  <input class="groot" type="submit" name="sumbit">
+  </div>
   </div>
 
 </form>
 
 </div>
+</br>
 
+</br>
+ <h1>Location</h1>
+<div class="gmaps">
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9940.161095505882!2d5.4976324!3d51.47577505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6df29b9087fb5%3A0xecc2865559f60e72!2sWijnpeerstraat%2C+Eindhoven!5e0!3m2!1sen!2snl!4v1516544027966" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+
+</div>
 
 </body>
 </html>

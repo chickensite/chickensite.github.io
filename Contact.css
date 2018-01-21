@@ -23,13 +23,16 @@
 body {
  
     margin: 0;
+    margin-top: 50px;
 
 }
+
 .formulier {
     padding: 16px;
     margin-top: 30px;
     display: flex;
-    flex-direction: row;
+  
+    justify-content: center;
 
 
 }
@@ -39,9 +42,43 @@ body {
 }
 
 .ab {display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 form {display: flex;
     flex-direction: row;
+
+}
+.gender1 {
+    display: flex;
+    flex-direction: row;
+   ;
+    
+}
+.gender2 {
+    margin-left: 90px;
+    
+}
+.groot {
+    width: 300px;
+}
+.gmaps {
+    display: flex;
+    justify-content: center;
+
 }
 
+iframe {
+    width: 90%;
+    height: 550px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+.h11 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -25px;
+}
