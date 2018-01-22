@@ -26,7 +26,7 @@
     margin: 0 auto;
 }
 header{
-    background-image: url("http://sfc-australia.com.au/wp-content/uploads/2015/08/chicken-strips.jpg");
+    background-image: url("http://www.baltana.com/files/wallpapers-6/Cute-Chicken-Background-Wallpaper-19975.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,4 +44,33 @@ body, html {
 img {
     width: 100%;
     z-index: -1;
+}
+
+.hallo {
+    height: 90px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+
+
+}
+.fact {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.hey {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-size: 25px;
+    font-weight: 600
 }
