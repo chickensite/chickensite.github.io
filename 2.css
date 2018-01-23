@@ -57,7 +57,7 @@ img {
 }
 .fact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;    
 
 }
@@ -73,4 +73,7 @@ img {
 p {
     font-size: 25px;
     font-weight: 600
+}
+#kippen {
+    width: 400px;
 }
